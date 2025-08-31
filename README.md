@@ -22,3 +22,42 @@ AI-FakeNews-Detector/
 │── requirements.txt
 │── README.md
 │── .gitignore
+
+
+---
+
+## ⚙️ Tech Stack  
+
+- **Language:** Python 🐍  
+- **Libraries:**  
+  - `pandas`, `numpy` – Data handling  
+  - `scikit-learn` – ML algorithms (Logistic Regression)  
+  - `nltk` – Text preprocessing  
+  - `matplotlib`, `seaborn` – Visualization  
+
+---
+
+## 🚀 Features  
+
+- Classifies news as **Fake** 🟥 or **True** 🟩  
+- Preprocessing: stopword removal, stemming, lowercasing  
+- TF-IDF Vectorization for feature extraction  
+- Logistic Regression as baseline classifier  
+- Works on custom user input  
+
+---
+
+## 🛠️ Installation  
+
+Clone the repository:  
+```bash
+git clone https://github.com/Harshith-Reddy11/AI-FakeNews-Detector.git
+cd AI-FakeNews-Detector
+
+Create a virtual environment (optional but recommended):
+
+python -m venv venv
+# For Linux/Mac
+source venv/bin/activate
+# For Windows
+venv\Scripts\activate
