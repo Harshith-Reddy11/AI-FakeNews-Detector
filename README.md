@@ -8,21 +8,24 @@ This project demonstrates text preprocessing, vectorization, and ML classificati
 ## 📂 Project Structure  
 
 AI-FakeNews-Detector/
-│── data/
-│ ├── True.csv
-│ ├── Fake.csv
 │
-│── notebooks/
-│ ├── training.ipynb
+├── data/
+│   ├── True.csv
+│   ├── Fake.csv
 │
-│── src/
-│ ├── train.py # Training script
-│ ├── predict.py # Script to test with custom input
+├── notebooks/
+│   ├── training.ipynb
 │
-│── requirements.txt
-│── README.md
-│── .gitignore
-
+├── src/
+│   ├── train.py                 # Traditional TF-IDF training script
+│   ├── predict.py               # Traditional TF-IDF prediction script
+│   ├── data_prep.py             # Data preprocessing for transformer models
+│   ├── train_transformer.py     # Initial transformer training pipeline (experimental)
+│   ├── predict_transformer.py   # Transformer prediction script (experimental)
+│
+├── requirements.txt
+├── README.md
+├── .gitignore
 
 ---
 
