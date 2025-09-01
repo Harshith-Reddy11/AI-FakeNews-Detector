@@ -56,14 +56,28 @@ Clone the repository:
 ```bash
 git clone https://github.com/Harshith-Reddy11/AI-FakeNews-Detector.git
 cd AI-FakeNews-Detector
+```
 
 Create a virtual environment (optional but recommended):
 
+```bash
 python -m venv venv
+
 # For Linux/Mac
 source venv/bin/activate
+
 # For Windows
 venv\Scripts\activate
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+
+---
 
 
 
