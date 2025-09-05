@@ -45,7 +45,8 @@ AI-FakeNews-Detector/
 - Classifies news as **Fake** 🟥 or **True** 🟩  
 - Preprocessing: stopword removal, stemming, lowercasing  
 - TF-IDF Vectorization for feature extraction  
-- Logistic Regression as baseline classifier  
+- Logistic Regression as baseline classifier
+- Transformer based classification(Experimental) 
 - Works on custom user input  
 
 ---
