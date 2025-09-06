@@ -87,7 +87,7 @@ pip install -r requirements.txt
 
 - The transformer-based scripts (`train_transformer.py`, `predict_transformer.py`, `data_prep.py`) are **experimental** and under active development.
 - Training transformers requires more computational resources.
-- Not yet fully developed.
+- This project is not yet fully developed.
 - Further improvements and evaluation metrics will be added soon.
 
 ---
