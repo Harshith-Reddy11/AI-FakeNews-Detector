@@ -99,3 +99,11 @@ pip install -r requirements.txt
 - Add detailed notebooks and visualizations.
 - Implement pipeline for automated model selection.
 
+---
+
+## Status
+
+🚧 **Under Development**  
+This project is not yet fully developed. Further improvements and evaluation metrics will be added in upcoming updates.
+
+
